@@ -35,7 +35,7 @@
         _automaticallyDisplayListVerticalScrollIndicator = YES;
         _isListHorizontalScrollEnabled = YES;
 
-        _mainTableView = [[JXPagerMainTableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+        _mainTableView = [[JXPagerMainTableView alloc] initWithFrame:CGRectZero style:UITableViewStyleGrouped];
         self.mainTableView.showsVerticalScrollIndicator = NO;
         self.mainTableView.showsHorizontalScrollIndicator = NO;
         self.mainTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
